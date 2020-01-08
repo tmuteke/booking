@@ -1,0 +1,77 @@
+<form class="absolute p-4 shadow-xl rounded-lg">
+  <span class="block text-2xl font-gilmerbold text-center">Create Account</span>
+  <div class="mb-2 ">
+    <label
+      for="firstname"
+      class="block text-gray-600 mb-1 font-gilmerbold text-lg"
+      >First Name</label
+    >
+    <input
+      type="text"
+      id="firstname"
+      placeholder="First name"
+      class="block px-2 py-3 border border-gray-300 rounded-sm w-full focus:border-gray-900 focus:outline-none"
+    />
+  </div>
+  <div class="mb-2 ">
+    <label
+      for="lastname"
+      class="block text-gray-600 mb-1 font-gilmerbold text-lg"
+      >Last Name</label
+    >
+    <input
+      type="text"
+      id="lastname"
+      placeholder="Last name"
+      class="block px-2 py-3 border border-gray-300 rounded-sm w-full focus:border-gray-900 focus:outline-none"
+    />
+  </div>
+  <div class="mb-2 ">
+    <label for="email" class="block text-gray-600 mb-1 font-gilmerbold text-lg"
+      >Email</label
+    >
+    <input
+      type="text"
+      id="email"
+      placeholder="your@email.com"
+      class="block px-2 py-3 border border-gray-300 rounded-sm w-full focus:border-gray-900 focus:outline-none"
+    />
+  </div>
+  <div class="mb-2 ">
+    <label
+      for="password"
+      class="block text-gray-600 mb-1 font-gilmerbold text-lg"
+      >Create Password</label
+    >
+    <input
+      type="password"
+      id="password"
+      placeholder="************"
+      class="block px-2 py-3 border border-gray-300 rounded-sm w-full focus:border-gray-900 focus:outline-none"
+    />
+  </div>
+  <div class="mt-3 mb-3 text-lg leading-tight">
+    <p class="font-gilmerlight">
+      By signing up you agree to the terms and policies of use for the Find &
+      Reserve platform.
+    </p>
+  </div>
+  <div class="mb-2">
+    <button
+      type="submit"
+      class="text-lg font-gilmerbold text-white bg-purple-900 rounded-sm w-full py-4"
+    >
+      Sign up
+    </button>
+  </div>
+  <div class="mt-6 pt-6 pb-2 border-t border-gray-300 text-center">
+    <p class="text-gray-600">
+      Already have an account?
+      <a
+        routerLink="/login"
+        class="py-3 px-6 text-lg font-gilmerbold bg-white shadow-md hover:shadow-lg text-teal-600 rounded-sm ml-1"
+        >Login</a
+      >
+    </p>
+  </div>
+</form>
